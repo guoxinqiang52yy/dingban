@@ -1,0 +1,94 @@
+
+/* 节点配置 */
+.nodepageleftbox{
+    width:300px;
+    height: calc(100vh - 100px);
+    /* overflow-y: scroll; */
+    overflow-y: auto;
+    position: fixed;
+    left:178px;
+    top:95px
+}
+.nodepageright{
+    /* width:500px; */
+    margin-left: 340px;
+}
+.examineright{
+    width:1200px;
+    margin-left: 340px;
+    margin-top:50px
+}
+.servicename{
+    position: relative;
+    font-size: 14px;
+    padding-left: 10px;
+    font-weight: bold;
+    /* margin-top:50px; */
+}
+.titlehead{
+    margin-top:50px
+}
+.servicename::before{
+    content:'';
+    display: block;
+    width:5px;
+    height: 15px;
+    background:#409EFF;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.navbar{
+    width:100%;
+    background: #fff;
+    position: fixed;
+    top:41px;
+    left:170px;
+    z-index:99;
+    padding-top: 10px;
+  
+}
+.navbar .top_line{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 1px;
+    background: #ccc;
+}
+.nodepageleftbox .expand div{
+    padding: 0;
+}
+.addreplaybtn{
+    width:80px;
+    height: 30px;
+    background:#409EFF;
+    color:#fff;
+    border-radius: 3px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 30px;
+    margin:10px 0;
+    cursor: pointer;
+}
+
+.examineright .number{
+    padding-left: 10px;
+}
+
+.numberbox .number{
+    padding-left: 10px;
+}
+.operategroup .numberorder{
+    padding-left: 20px;
+}
+.operategroup tr th:nth-child(3) .cell{
+    padding-left: 20px;
+}
+.examineright .pagelist{
+    margin-top:20px;
+    text-align: right;
+}
+.examinerightk .pagelist{
+    margin-top:20px;
+    text-align: right;
+}

@@ -1,0 +1,102 @@
+.finance_list {
+  font-size: 13px !important;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 40px);
+}
+.top_line {
+  flex: none;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  height: 1px !important;
+  background: #ccc;
+}
+
+.finance_list_list {
+  margin-top: 15px;
+  flex: 1;
+  height: 0;
+  overflow: auto;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+}
+.finance_content {
+  height: 100%;
+  display: flex;
+}
+.finance_content_tree {
+  height: 100%;
+  flex: none;
+  width: 250px;
+}
+.finance_content_tree_list {
+  padding-top: 5px;
+  height: 100%;
+  overflow-y: auto;
+}
+.finance_list_list_box {
+  padding: 5px 0;
+  text-align: center;
+  cursor: pointer;
+  margin: 6px 0;
+  background-color: #ccc;
+}
+.finance_list_list_box_select {
+  background: #999 !important;
+  font-weight: bold !important;
+}
+.finance_content_list {
+  padding: 10px;
+  height: 100%;
+  flex: 1;
+}
+.finance_content_list_list {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.finance_content_list_list > .title {
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.1);
+}
+.finance_content_list_list > .list {
+  flex: 1;
+  height: 0;
+  overflow-y: auto;
+  padding: 10px;
+}
+.finance_content_list_list > .list /deep/ .el-checkbox {
+  margin-bottom: 10px;
+}
+/* 表格 */
+.finance_contract /deep/ .el-table .cell {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.finance_contract /deep/ .el-table .cell .el-button {
+  margin-left: 8px;
+  margin-bottom: 5px;
+}
+.finance_contract .order_list_search {
+  display: flex;
+  min-width: 1500px;
+}
+.finance_contract .input_label {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 25px;
+}
+.input_label .input_label_title {
+  flex: none;
+  margin-right: 10px;
+}
+.input_label > .el-select {
+  margin: 0 5px;
+}

@@ -1,0 +1,744 @@
+.flex {
+    display: flex;
+}
+
+.flexone {
+    display: flex;
+    align-items: center;
+}
+
+.flextwo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flexthree {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexfour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexfive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.personlsit {
+    min-width: 1200px;
+
+}
+
+.firstselect {
+    margin-top: 18px;
+}
+
+.personbox {
+    /* min-width: 1930px; */
+}
+
+.select {
+    /* min-width: 1930px; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btnperson {
+    margin-bottom: 18px;
+}
+
+.selectoption {
+    margin-right: 8px;
+    margin-bottom: 18px;
+
+}
+
+.selectoptionk {
+    /* width:370px */
+}
+
+.selectitem {
+    width: 155px;
+    color: #606266;
+}
+
+.upfileboxtop {
+    height: 50px;
+}
+
+.createtime .selectitem {
+    width: 401px
+}
+
+.createtime .selectitem .el-date-editor {
+    width: 401px
+}
+
+.createtime .selectitem.el-date-editor .el-range-input {
+    width: 40%
+}
+
+.createtime .selectitem .el-date-editor .el-range-separator {
+    width: 9%;
+}
+
+.selectregister .el-date-editor.el-input {
+    width: 141px
+}
+
+.selectname {
+    width: 80px;
+    color: #606266;
+    /* margin-right:10px; */
+    text-align: right;
+}
+
+.lettername {
+    /* letter-spacing: 14px; */
+
+}
+
+.selectnamek {
+    width: 50px;
+    color: #606266;
+    /* margin-right:10px; */
+    text-align: right;
+}
+
+.yearname {
+    width: 80px;
+}
+
+.recourselist {
+    margin-left: 5px;
+}
+
+.basinfo {
+    color: #333;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100px;
+    text-align: right;
+    padding-right: 12px;
+    box-sizing: border-box;
+    margin-bottom: 22px;
+    position: relative;
+}
+
+.basinfo::before {
+    display: block;
+    content: '';
+    width: 5px;
+    height: 18px;
+    background: #409EFF;
+    position: absolute;
+    top: -2px;
+    left: 10px;
+}
+
+.imgshow {
+    width: 110px;
+    height: 110px;
+}
+
+.imgshow img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.talentimg{
+    background-color: #fbfdff;
+    border: 1px dashed #c0ccda;
+    border-radius: 6px;
+    box-sizing: border-box;
+    width: 110px;
+    height: 110px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.talentimg i{
+    font-size: 28px;
+    color: #8c939d;
+}
+.talentimg .el-upload{
+    width: 110px;
+    height: 110px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.talentimgone{
+    margin-left: 20px;
+}
+.talentimg img{
+    width:100%;
+    height: 100%;
+}
+.fileimg{
+    width:50px;
+    height: 50px;
+    cursor: pointer;
+}
+.viewer-footer{
+    display:none
+}
+
+
+/* 批量上传 */
+.batchup {
+    margin-bottom: 22px;
+}
+
+.bathleft {
+    color: #409EFF;
+    cursor: pointer;
+}
+
+.batchupbtn {
+    color: #409EFF;
+    background: #fff;
+    border: none;
+    font-size: 14px;
+}
+.batchupbtn:hover{
+    background: transparent!important;
+    color: #409EFF;
+}
+.batchupbtn .el-button--primary{
+    background: #fff !important;
+    border-color: #fff !important;
+    color: #409EFF;
+}
+.batchupbtn input {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.batchleftk {
+    color: #409EFF;
+    /* background:#409EFF;
+    margin-left:10px;
+    padding: 10px 16px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-size: 12px;
+    */
+}
+.addpaybtn{
+    color:#009933;
+}
+.reducepaybtn{
+    color:	#A80000;
+}
+
+.v-modal {
+    z-index: 8 !important;
+}
+
+.el-input__inner,
+.el-form-item__label {
+    cursor: pointer;
+}
+
+.sextext .el-form-item__label {
+    width: 60px !important;
+}
+
+.sextext .el-form-item__content {
+    margin-left: 65px !important;
+}
+
+.sextext .el-radio {
+    margin-right: 21px !important;
+}
+
+.cardtext .el-form-item__label {
+    width: 70px !important;
+}
+
+.cardtext .el-form-item__content {
+    margin-left: 70px !important
+}
+
+.ranktext .el-form-item__label {
+    /* width:80px!important; */
+}
+
+.ranktext .el-form-item__content {
+    margin-left: 103px !important
+}
+
+.majortext .el-form-item__label {
+    width: 60px !important;
+}
+
+.majortext .el-form-item__content {
+    margin-left: 60px !important
+}
+
+.issutext .el-form-item__label {
+    width: 85px !important;
+}
+
+.issutext .el-form-item__content {
+    margin-left: 85px !important
+}
+
+.registertext .el-form-item__label {
+    width: 150px !important;
+}
+
+.registertext .el-form-item__content {
+    margin-left: 156px !important
+}
+
+.containuetext .el-form-item__content {
+    margin-left: 30px !important;
+}
+
+.isbook .el-form-item__content {
+    width: 35px !important;
+    line-height: 48px !important;
+
+}
+
+.expire .el-form-item__label {
+    width: 60px !important;
+}
+
+.expire .el-form-item__content {
+    margin-left: 60px !important;
+}
+
+.containuestudy .el-form-item__label {
+    width: 120px !important;
+}
+
+.containuestudy .el-form-item__content {
+    margin-left: 120px !important;
+}
+
+.password .el-form-item__label {
+    width: 63px !important;
+}
+
+.password .el-form-item__content {
+    margin-left: 68px !important;
+}
+
+.upbatchtable .el-form-item__content {
+    margin-left: 50px !important
+}
+.signtime .el-form-item__label {
+    width: 130px !important;
+}
+.signtime .el-form-item__content {
+    margin-left:130px !important
+}
+.costprice .el-form-item__label{
+    width: 130px !important;
+}
+.costprice .el-form-item__content {
+    margin-left:130px !important
+}
+.hiretime .el-form-item__label{
+    width:120px!important
+}
+.hiretime .el-form-item__content{
+    margin-left:120px!important
+}
+.hirecycle .el-select{
+    width:100%!important
+}
+.hirecycle .el-date-editor{
+    width:100%!important
+}
+.nonei .el-select__caret{
+    display:none
+}
+.nonei.el-input__inner{
+    padding-right: 0!important;
+}
+.nonei .el-input--suffix .el-input__inner{
+    padding-right: 0!important;
+}
+
+.haveB {
+    height: 50px;
+}
+
+.haveBtext {
+    margin-bottom: 0px !important
+}
+
+.upfileimgbox .el-upload-list__item {
+    background-color: #fbfdff !important;
+    border: 1px dashed #c0ccda !important;
+    border-radius: 6px !important;
+    box-sizing: border-box !important;
+    width: 110px !important;
+    height: 110px !important;
+    line-height: 110px !important;
+    vertical-align: top !important;
+}
+
+.el-upload--picture-card {
+    background-color: #fbfdff;
+    border: 1px dashed #c0ccda;
+    border-radius: 6px;
+    box-sizing: border-box;
+    width: 110px;
+    height: 110px;
+    line-height: 110px;
+    vertical-align: top;
+}
+
+.paytabletitle li {
+    width: 150px;
+    height: 40px;
+    border: 1px solid #606266;
+    border-right: none;
+    text-align: center;
+
+}
+
+.paytabletitle li:last-child {
+    border-right: 1px solid #606266;
+}
+
+.paytablebody li:last-child {
+    width: 60px;
+    border: none
+}
+
+.paytablebody li {
+    border-top: none
+}
+
+.paytablebody li:nth-child(4n) {
+    border-right: 1px solid #606266;
+
+}
+
+.paytabletitle li input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+.signbody li {
+    border-top: none
+}
+
+.iconfont {
+    font-size: 30px;
+}
+
+.el-icon-circle-plus-outline {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.el-icon-remove-outline {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.download {
+    display: inline-block;
+    color: #409EFF;;
+    cursor: pointer;
+
+}
+
+.delete {
+    display: inline-block;
+    color: #A80000;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.remarktext {
+    width: 820px;
+    height: 70px;
+    border: 1px solid #606266;
+    padding: 8px;
+    outline: none;
+}
+
+.input-with-select .el-input-group__prepend {
+    background-color: #fff;
+}
+
+.input-with-select {
+    width: 385px
+}
+.personmenu{
+    width:97.7%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.searchname {
+    color: #008000;
+    font-size: 13px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.remind {
+    color: #FF7744;
+    font-size: 13px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.editword {
+    color: #FF8888;
+    font-size: 13px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.withdraw {
+    color: #ff0000;
+    font-size: 13px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.withdrawk {
+    color: #409EFF;
+    font-size: 13px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.withdrawkuse{
+    color: 	#C0C0C0;
+    font-size: 13px;
+    cursor: pointer;
+    margin-right: 10px; 
+}
+.btnlist {
+    justify-content: center;
+}
+
+.pagelist {
+    margin-top: 10px;
+    text-align: right;
+}
+
+/* 批量上传 */
+.batchbtn .el-upload-list__item {
+    display: none !important
+}
+
+.batchbtn .el-upload--picture-card {
+    border: none !important;
+}
+
+/* 从服务过来的处理操作 */
+.entermarktext textarea::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: red;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    red;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:   red;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    red;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    red;
+}
+.operatepeople .el-dialog__title {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.selpeoplelist {
+    margin-top: 15px
+}
+
+.operatepeople .cell {
+    text-align: center;
+}
+
+.external {
+    margin-top: 20px
+}
+
+.remarkname {
+    width:100px;
+    margin-right: 10px
+}
+
+.entermark {
+    /* width:980px; */
+    height: 150px;
+}
+
+.entermark textarea {
+    width: 100%;
+    height: 100%;
+}
+
+.remarkbox {
+    margin-top: 20px;
+}
+
+.selectagent {
+    width: 90px;
+}
+
+.closeimg{
+    position: absolute;
+    right:-14px;
+    top:-10px;
+    font-size: 22px!important;
+    color:#409EFF!important;
+    z-index:999
+}
+
+.requirelist tr th:nth-child(-n + 12) {
+    background-color: #009933;
+    color:#fff;
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+   
+}
+.requirelist tr th:nth-child(n + 13) {
+    background-color:#409EFF;
+    color:#fff;
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+}
+.requirelist .el-table__row td{
+    text-align: center;
+}
+.requirelist .el-table td, .el-table th{
+    padding: 8px 0;
+}
+.servicerequirelist tr th:nth-child(-n + 15) {
+    background-color: #009933;
+    color:#fff;
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+   
+}
+.servicerequirelist tr th:nth-child(n + 13) {
+    background-color:#409EFF;
+    color:#fff;
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+}
+.servicerequirelist .el-table__row td{
+    text-align: center;
+}
+.servicerequirelist .el-table td, .el-table th{
+    padding: 8px 0;
+}
+.servicerequirelist .el-table .cell{
+    line-height: 1;
+}
+.requiredialog .el-dialog__header{
+    text-align: center;
+  }
+
+/*  */
+/*外聘人员需求 */
+.operatesel .el-input input{
+    font-size: 13px;
+    height: 27px;
+    line-height: 27px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.requiredialog .el-dialog__body{
+    padding: 0px 20px 10px;
+}
+.operatesel .el-input__suffix .el-input__icon{
+    line-height: 27px;
+}
+.addbtn{
+    width: 70px;
+    /* border:1px solid #409EFF; */
+    text-align: center;
+    color:#409EFF;
+    border-radius: 4px;
+    height: 27px;
+    line-height: 27px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.clearbtn{
+   color:#A80000;
+}
+.resetselect{
+    width: 70px;
+    
+    border:1px solid#C0C0C0;
+    color:#C0C0C0;
+    text-align: center;
+    border-radius: 4px;
+    height: 27px;
+    line-height: 27px;
+    font-size: 12px;
+    cursor: pointer;
+}
+/* 提醒消息样式 */
+.remindtextbox textarea {
+    height: 105px !important;
+}
+
+/* 消息弹出层 */
+.drawerbox .el-drawer__header{
+    padding: 0 20px;
+    margin:10px 0 !important;
+    border:none!important
+}
+.drawerbox .el-drawer{
+    /* height: 80vh; */
+}
+.drawerbox .el-drawer__header span{
+    font-weight: bold;
+    border:#fff !important
+}
+.viewer-container{
+    z-index:999999!important
+}
+.viewer-canvas{
+    z-index:999999!important
+}
+.viewer-canvas img{
+    position: relative;
+    z-index: 9999999!important
+}
+.select {
+    border-bottom:none!important
+}

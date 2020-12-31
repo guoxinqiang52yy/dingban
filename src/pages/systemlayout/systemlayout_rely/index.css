@@ -1,0 +1,24 @@
+.nodepagek{
+    margin-top:40px;
+    margin-left:20px
+}
+.addreplay{
+    width:1330px;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.actfooter{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.delbtn{
+    color:#FF0000;
+}
+.replaypagelist{
+    width:1330px;
+}
+.replaytable .cell{
+    text-align: center;
+}

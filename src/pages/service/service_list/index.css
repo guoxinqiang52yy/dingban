@@ -1,0 +1,89 @@
+/* .servicefilter{
+    margin-top:10px
+} */
+
+.servicefilter{
+    display:flex;
+    align-items: center;
+    margin-top:15px
+}
+
+.servicefilterone{}
+  
+.serviceselect{
+    display:flex;
+    align-items: center;
+    margin-right:10px
+}
+.selectpeople{
+    margin-left:10px
+}
+.quality{
+    width:200px;
+    margin-right: 8px;
+}
+.qualitystatus{
+    width:200px
+}
+.roadwork{
+    width:200px;
+}
+.allquality{
+    width:200px;
+}
+.serviceselectname{
+    width:100px;
+    text-align: right;
+}
+.servicestate{
+    width:115px;
+    margin-right: 8px;
+}
+.entercompany{
+    width:360px
+    /* margin-left:15px */
+}
+.entersearch input{
+    width:310px;
+    margin-right:0!important
+}
+.servicepagebox{
+    margin-top:20px
+}
+.servicetable .cell{
+    text-align: center;
+}
+.searchperson{
+    width:244px;
+}
+.operatetop{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.seebtn{
+    color:#009900;
+    cursor: pointer;
+    font-weight: bold;
+}
+.dealbtn{
+    color:#996633;
+    cursor: pointer;
+    font-weight: bold;
+}
+.appointbtn{
+    color:#409EFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+.rangebtn{
+    color:#660099;
+    cursor: pointer;
+    font-weight: bold;
+}
+.stopbtn{
+    color:#CC0000;
+    cursor: pointer;
+    font-weight: bold;	
+}

@@ -1,0 +1,158 @@
+.order_show {
+  font-size: 13px !important;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 40px);
+}
+.top_line {
+  flex: none;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  height: 1px !important;
+  background: #ccc;
+}
+.order_list_content_box {
+  width: 1600px;
+  margin: 0 auto;
+}
+.order_list_title {
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 16px;
+  /* margin-left: 20px; */
+  height: 35px;
+  line-height: 35px;
+  border-bottom: 1px solid #ccc;
+}
+.order_list_title .pass {
+  color: rgb(112, 182, 3);
+}
+.order_list_title .nopass {
+  color: rgb(245, 154, 35);
+}
+.order_list_heard {
+  font-size: 14px;
+  margin: 10px 0;
+  color: #131212;
+}
+.order_list_tab {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 20px 0;
+  /* margin-bottom: 50px; */
+}
+.order_list_tab > p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background: #ddd;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.order_list_tab > p span {
+  margin: 4px;
+}
+
+.order_show .shenpi {
+  display: flex;
+  justify-content: space-between;
+}
+.order_details .order_details_line {
+  width: 100%;
+  height: 1px;
+  background: #ddd;
+  margin: 10px 0;
+}
+
+/* 头部信息样式 */
+.row_waper {
+  font-size: 13px;
+  margin: 15px 0;
+}
+.row_waper .row_col_waper {
+  display: flex;
+}
+
+.row_waper .row_col_waper .row_col_span_waper {
+  text-align: right;
+  width: 70px;
+  margin-right: 5px;
+}
+
+/* 合同头部 */
+.order_details .order_details_contract {
+  margin-top: 20px;
+}
+.order_details .order_details_contract .order_details_contract-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  border-bottom: 1px solid #ddd;
+  height: 40px;
+}
+.order_details .order_details_contract .order_details_contract-header > span {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  border-radius: 7px 7px 0 0;
+  color: rgb(60, 64, 67);
+  cursor: pointer;
+  background: rgb(231, 234, 237);
+  border-bottom: none;
+}
+.span_select {
+  padding: 10px 12px !important;
+  color: rgb(2, 167, 249) !important;
+  background: rgb(255, 255, 255) !important;
+}
+
+.order_details .order_details_contract .order_details_contract-content {
+  margin-top: 20px;
+}
+.order_details_contract_examine {
+  margin-top: 30px;
+}
+.order_details_contract_examine .contract_examine_line {
+  margin-top: 5px;
+}
+.order_details_contract_examine .contract_examine_line {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.order_details_contract_examine .contract_examine_line .contract_examine_line_line {
+  height: 20px;
+}
+
+.order_details_contract_examine .contract_examine_line .contract_examine_line_name {
+  margin: 10px;
+
+  color: #ccc;
+}
+.order_details_contract_examine .contract_examine_line .contract_examine_line_name i {
+}
+.order_details .order_details_order_content {
+  width: 100%;
+}
+.examine1 {
+  color: #333 !important;
+}
+.examine2 {
+  color: rgb(2, 167, 249) !important ;
+}
+.order_show .shenpi_btn {
+  display: flex;
+  align-items: center;
+}
+.order_show /deep/ .el-form-item {
+  display: flex;
+}
+.order_show /deep/ .el-form-item__content {
+  flex: 1;
+}

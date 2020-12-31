@@ -1,0 +1,376 @@
+.servicedetail{
+    margin-left:15px
+}
+.baseinfoname{
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    padding-left: 10px;
+    margin-top:20px
+}
+.baseinfoname::before{
+    content:'';
+    display:block;
+    width:5px;
+    height: 13px;
+    background: #409EFF;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.baseinfobox{
+    display:flex;
+    align-items: center;
+    margin:8px 0;
+    min-width: 1440PX;
+
+}
+.baseinfoitem{
+    margin-top:15px;
+    margin-right:40px;
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+}
+.ordernumber:hover{
+    color:#409EFF
+}
+.baseinfroitemname{
+    width:100px;
+    display:block;
+    text-align: right;
+}
+.createtime .selectitem {
+    width: 401px
+}
+
+.createtime .selectitem .el-date-editor {
+    width: 401px
+}
+
+.createtime .selectitem.el-date-editor .el-range-input {
+    width: 40%
+}
+
+.createtime .selectitem .el-date-editor .el-range-separator {
+    width: 9%;
+}
+
+.selectregister .el-date-editor.el-input {
+    width: 141px
+}
+
+.selectname {
+    width: 80px;
+    color: #606266;
+    /* margin-right:10px; */
+    text-align: right;
+}
+
+.lettername {
+    /* letter-spacing: 14px; */
+
+}
+
+.selectnamek {
+    width: 50px;
+    color: #606266;
+    /* margin-right:10px; */
+    text-align: right;
+}
+
+.yearname {
+    width: 80px;
+}
+
+.recourselist {
+    margin-left: 5px;
+}
+
+.basinfo {
+    color: #333;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100px;
+    text-align: right;
+    padding-right: 12px;
+    box-sizing: border-box;
+    margin-bottom: 22px;
+    position: relative;
+}
+
+.basinfo::before {
+    display: block;
+    content: '';
+    width: 5px;
+    height: 18px;
+    background: #409EFF;
+    position: absolute;
+    top: -2px;
+    left: 10px;
+}
+
+.imgshow {
+    width: 110px;
+    height: 110px;
+}
+
+.imgshow img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.talentimg{
+    background-color: #fbfdff;
+    border: 1px dashed #c0ccda;
+    border-radius: 6px;
+    box-sizing: border-box;
+    width: 110px;
+    height: 110px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.talentimg i{
+    font-size: 28px;
+    color: #8c939d;
+}
+.talentimg .el-upload{
+    width: 110px;
+    height: 110px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.talentimgone{
+    margin-left: 20px;
+}
+.talentimg img{
+    width:100%;
+    height: 100%;
+}
+.fileimg{
+    width:50px;
+    height: 50px;
+    cursor: pointer;
+}
+.viewer-footer{
+    display:none
+}
+
+
+/* 批量上传 */
+.upfilebox{
+    width:1440px;
+    display:flex;
+    justify-content: space-between;
+    margin-top:20px
+}
+.upfileboxname{
+    font-size: 14px;
+}
+.batchup {
+    display:flex;
+    align-items: center;
+    margin-bottom: 22px;
+}
+.batchup .el-upload--picture-card{
+    width:100px;
+    height:30px;
+    line-height: 30px;
+    border:none
+}
+.bathleft {
+    color: #409EFF;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.batchupbtn {
+    color: #409EFF;
+    background: #fff;
+    border: none;
+    font-size: 14px;
+}
+.batchupbtn:hover{
+    background: transparent!important;
+    color: #409EFF;
+}
+.batchupbtn .el-button--primary{
+    background: #fff !important;
+    border-color: #fff !important;
+    color: #409EFF;
+}
+.batchupbtn input {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.addpaybtn{
+    color:#009933;
+}
+.reducepaybtn{
+    color:	#A80000;
+}
+.upfile{
+    width:1440px;
+}
+.upbatchtable .el-form-item__content {
+    margin-left: 50px !important
+}
+.download {
+    display: inline-block;
+    color: #409EFF;;
+    cursor: pointer;
+
+}
+
+.delete {
+    display: inline-block;
+    color: #A80000;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.companydisktable .cell{
+    text-align: center;
+}
+.talentdata{
+    margin-bottom:15px
+}
+.servicetab{
+    display:flex;
+    overflow-x: scroll;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    margin-top:12px;
+    width:1440px;
+   
+}
+.servicetabitem{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    color:#fff;
+    background: #409EFF;
+    border-radius: 3px;
+    flex:0 0 auto;
+    cursor: pointer;
+}
+.inner{
+    width: 1440px;
+    height: 10px;
+}
+.servicetab{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    color: #000;
+    font-family: "\5FAE\8F6F\96C5\9ED1",Helvetica,"黑体",Arial,Tahoma;
+    cursor: pointer;
+}
+/*滚动条样式*/
+.servicetab::-webkit-scrollbar {
+    width: 4px;
+    height: 5px;    
+    /*height: 4px;*/
+}
+.servicetab::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 5px rgba(30,144,255,0.2);
+    background: rgba(30,144,255,0.2);
+}
+.servicetab::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(30,144,255,0.2);
+    border-radius: 0;
+    /* background: rgba(30,144,255,0.1); */
+
+}
+.servicetablehead{
+    width:1440px;
+    margin-top:50px;
+    border:none
+}
+.servicetablehead .cell{
+    text-align: center;
+}
+.servicetablehead .el-table__body-wrapper{
+    display:none;
+    border:none;
+}
+.servicebody{
+    display:flex
+}
+.servicebodyleft{
+    width:180px;
+    border:1px solid #EBEEF5;
+    border-top:none;
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-bottom: 20px;
+}
+.servicebodyright{
+    width:1258px;
+    padding-left:20px;
+    padding-top:10px;
+    border:1px solid #EBEEF5;
+    border-top:none;
+    border-left:none
+}
+.servicebodyright .el-card{
+    box-shadow: none;
+    border:none
+}
+.servicebodypage{
+    height: 120px;
+}
+.servicebodyleftitem{
+    width:150px;
+    height: 80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 12px;
+    border:1px solid #EBEEF5;
+    margin-top:10px;;
+    position: relative;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.serviceactiveitem{
+    background: #409EFF;
+    color:#fff
+}
+.serviceactiveitem .pantime{
+    color:#fff
+}
+.servicerighttable .cell{
+    text-align: center;
+}
+.pantime{
+    color:#409EFF;
+    margin-top:10px
+}
+.line{
+    position: absolute;
+    bottom:-40px;
+    left:50%;
+    transform: translateX(-50%);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.lineitem{
+    color:#409EFF;	
+}
+.servicebodypage:last-child{
+    height: 100px;
+}
+.servicebodypage:last-child .servicebodyleftitem .line{
+    display:none
+}

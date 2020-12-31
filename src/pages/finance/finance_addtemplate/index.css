@@ -1,0 +1,125 @@
+/* 添加模板 */
+.finance_add {
+  font-size: 13px !important;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 40px);
+}
+.top_line {
+  flex: none;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  height: 1px !important;
+  background: #ccc;
+}
+.formList {
+  display: flex;
+  justify-content: flex-start;
+}
+.formList .form_input {
+  width: 450px;
+}
+
+.formList .el-form-item {
+  margin-bottom: 5px;
+  margin-right: 40px;
+}
+.finance_add_content {
+  height: 100%;
+}
+.finance_add_content_title {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.finance_add_content_body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.finance_add_content_body > .content {
+  flex: 1;
+  height: 0;
+  display: flex;
+}
+.finance_add_content_body > .content .edit {
+  flex: 1;
+  min-width: 1000px;
+  border: 1px solid #ddd;
+}
+.finance_add_content_body > .content .edit .title {
+  text-align: center;
+  font-weight: 600;
+  height: 30px;
+  line-height: 30px;
+  background: #eeeeee;
+  border: 0 1px 0 1px, solid #ddd;
+}
+.finance_add_content_body > .content .edit .content_editor {
+  height: calc(100% - 30px);
+  padding: 10px;
+}
+.finance_add_content_body > .content .list {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  border: 1px solid #ddd;
+  border-left: 0;
+}
+.finance_add_content_body > .content .list .title {
+  text-align: center;
+  font-weight: 600;
+  height: 30px;
+  line-height: 30px;
+  background: #eeeeee;
+  border: 0 1px 0 1px, solid #ddd;
+  border-left: 0;
+}
+.finance_add_content_body > .content .list .small_title {
+  margin: 0 5px;
+  margin-top: 10px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #ccc;
+}
+.finance_add_content_body > .content .content_list_btn {
+  position: relative;
+  margin: 10px 3px;
+  flex: 1;
+  height: 0;
+  border-radius: 2px;
+  overflow-y: auto;
+}
+
+.finance_add_content_body > .content .content_list_btn_list {
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 5px;
+  background: #ccc;
+  cursor: pointer;
+  padding: 0 10px;
+  border-radius: 3px;
+  font-weight: bold;
+  color: #555;
+}
+
+.finance_add_content_body > .content .content_list_btn_list .btns {
+  margin-left: 20px;
+}
+.finance_add_content_body > .content .content_list_btn_list .btns b {
+  margin-left: 8px;
+}
+.finance_add_content_body > .content .content_list_bot {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.finance_add_content_body > .bot {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

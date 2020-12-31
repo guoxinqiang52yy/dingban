@@ -1,0 +1,75 @@
+.order_show {
+  font-size: 13px !important;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 40px);
+}
+.top_line {
+  flex: none;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  height: 1px !important;
+  background: #ccc;
+}
+.order_list_content_box {
+  width: 1600px;
+  margin: 0 auto;
+}
+.order_list_title {
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 16px;
+  /* margin-left: 20px; */
+  height: 35px;
+  line-height: 35px;
+  border-bottom: 1px solid #ccc;
+}
+.order_list_title .pass {
+  color: rgb(112, 182, 3);
+}
+.order_list_title .nopass {
+  color: rgb(245, 154, 35);
+}
+.order_list_heard {
+  font-size: 14px;
+  margin: 10px 0;
+  color: #131212;
+}
+.order_list_tab {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 20px 0;
+  /* margin-bottom: 50px; */
+}
+.order_list_tab > p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background: #ddd;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.order_list_tab > p span {
+  margin: 4px;
+}
+
+.order_show .shenpi {
+  display: flex;
+  justify-content: space-between;
+}
+.order_show .shenpi_btn {
+  display: flex;
+  align-items: center;
+}
+.order_show /deep/ .el-form-item {
+  display: flex;
+}
+.order_show /deep/ .el-form-item__content {
+  flex: 1;
+}

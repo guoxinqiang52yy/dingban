@@ -1,0 +1,120 @@
+/*.map{*/
+    /*position: relative;*/
+/*}*/
+/*.map .map_left_nav1{*/
+    /*position: absolute;*/
+    /*top: 10px;*/
+    /*left: 10px;*/
+    /*z-index: 9999;*/
+/*}*/
+
+.map .serachinput{
+    margin: 5px 0 0 10px;
+}
+.infowindowbox {
+    width: 100%;
+    display: flex;
+}
+
+.infowindowbox .infowindowbox_left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #f2f2f2;
+}
+.infowindowbox_left_head .ckxqClass{
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 5px;
+    color: #08B400;
+    cursor: pointer;
+}
+.infowindowbox_left .infowindowbox_left_head,.infowindowbox_right .infowindowbox_right_head {
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infowindowbox .infowindowbox_right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.infowindowbox_left_cont,.infowindowbox_right_cont{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+.card_time_right p {
+    line-height: 18px;
+}
+.infowindowbox_left_cont p,.infowindowbox_right_cont{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 5px 0;
+}
+.infowindowbox_right_cont{
+    height: 100%;
+}
+.infowindowbox_right_cont .hover_empty{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.infowindowbox_left_cont p .left{
+    display: inline-block;
+    width: 30%;
+}
+.infowindowbox_left_cont p .right{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.infowindowbox_right_cont .infowindowbox_right_cont_list{
+    display: flex;
+}
+.right_lists{
+    overflow: auto;
+}
+.infowindowbox_right_cont .infowindowbox_right_cont_list .card_time_left{
+    width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+.infowindowbox_right_cont_list{
+    border-bottom: 1px solid #f2f2f2;
+    padding: 5px;
+}
+.infowindowbox_right_cont_list .card_time_right{
+    flex: 1;
+    /*max-height: 98px;*/
+}
+.card_time_right .card_time_right_cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.card_time_right_cont .card_time_right_top {
+    display: flex;
+}
+
+.card_time_right_top .card_time_right_lef {
+    width: 50%;
+}
+.imgPhoneTel{
+    position: relative;
+}
+.imgPhoneTel img{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    right: 91px;
+    top: -10px;
+    cursor: pointer;
+}

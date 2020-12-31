@@ -1,0 +1,54 @@
+.top_line {
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  height: 1px;
+  background: #ccc;
+}
+.prod_attr {
+  width: 100%;
+  height: calc(100% - 40px);
+}
+.prod_attr_list {
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+.prod_attr_add {
+  -ms-flex: none;
+  flex: none;
+  width: 350px;
+  border-right: 1px solid #ccc;
+  padding-right: 5px;
+}
+.prod_attr_add .top {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+.prod_attr_add .top p {
+  font-size: 18px;
+  color: #303133;
+}
+.prod_attr_content {
+  -ms-flex: 1;
+  flex: 1;
+  width: auto;
+  height: auto;
+  overflow-x: hidden;
+  padding-left: 5px;
+}
+.prod_attr_button {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+}
+.el-form--inline .el-form-item {
+  display: flex !important;
+  width: 100%;
+}

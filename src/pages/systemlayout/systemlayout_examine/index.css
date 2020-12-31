@@ -1,0 +1,35 @@
+
+.operatebtn{
+    display:flex;
+    align-items: center;
+}
+.editbtn{
+    color:#0066FF;
+    font-size: 13px;
+    margin-right:10px;
+    cursor: pointer;
+}
+.delbtn{
+    color:#FF0000;
+    font-size: 13px;
+    cursor: pointer;
+}
+.addreplay{
+    width:1330px;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.actfooter{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.examinetable .cell{
+    text-align: center;
+}
+.examinetable .operatebtn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,25 @@
+.official_link {
+  width: 100%;
+  height: calc(100% - 40px);
+}
+.top_line {
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  height: 1px;
+  background: #ccc;
+}
+.official_link_top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.official_link_top .select_city {
+  width: 150px;
+}
+.official_link_top .el-input__inner {
+  height: 32px;
+}
+.el-input__icon {
+  line-height: 32px;
+}

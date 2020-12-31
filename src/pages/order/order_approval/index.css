@@ -1,0 +1,77 @@
+.approval.order_list {
+  font-size: 13px !important;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 40px);
+}
+.top_line {
+  flex: none;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  height: 1px !important;
+  background: #ccc;
+}
+.approval .order_list_search {
+  height: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+.approval .order_list_content {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.approval .order_list_list {
+  /* margin-top: 15px;
+    flex: 1;
+    height: 0;
+    overflow: auto;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25); */
+}
+.approval .el-table .cell {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.approval .el-table .cell .el-button {
+  margin-left: 8px;
+  margin-bottom: 5px;
+}
+.approval .order_list_search {
+  display: flex;
+  min-width: 1500px;
+}
+.approval .input_label {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 25px;
+}
+.approval .input_label .input_label_title {
+  flex: none;
+  margin-right: 10px;
+}
+.approval .input_label > .el-select {
+  margin: 0 5px;
+}
+.approval .order_list_message {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.approval .order_list_message_dep {
+  display: flex;
+  align-items: center;
+}
+.approval .order_list /deep/ .el-form-item {
+  display: flex;
+}
+.approval .order_list /deep/ .el-form-item__content {
+  flex: 1;
+}

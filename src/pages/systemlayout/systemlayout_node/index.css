@@ -1,0 +1,194 @@
+.titlehead{
+    /* border-top:1px solid#EBEEF5; */
+}
+.titlehead .el-table__empty-block{
+    display:none
+}
+
+.titlehead .cell{
+    text-align: center;
+   
+}
+.servicetop{
+    width:1250px;
+    display:flex;
+    align-items: center;
+    margin-top:10px;
+}
+.serviceitem{
+    font-size: 13px;
+    height: 40px;
+    line-height: 40px;
+    border:1px solid #8492a6;
+    border-right:none;
+    padding: 0 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+/* .serviceitem:last-child{
+    border:1px solid  #8492a6;
+} */
+.order{
+    width:100px;
+}
+
+.approveevent{
+    width:200px;
+}
+.taskname{
+    width: 200px;
+}
+.planedtime{
+    width:120px
+}
+.associatedrule{
+    width:200px
+}
+.oprraterange{
+    width:220px
+}
+.statename{
+    width:160px;
+}
+.operate{
+    width:50px;
+    border:none;
+    border-left:1px solid  #6a717c;
+}
+.nodeitem{
+    display:flex;
+    align-items: center;
+    width:1100px;
+    /* border-left: 1px solid #EBEEF5;
+    border-right: 1px solid  #EBEEF5; */
+    border-top:none;
+    border-right:none;
+   
+}
+.rightitembox{
+    /* border-right: 1px solid #EBEEF5; */
+}
+.additem{
+    color: #009933;
+    cursor: pointer;
+    position: absolute;
+    font-size: 25px;
+    top:5px;
+    right:-34px
+}
+.reduiceitem{
+    
+    cursor: pointer;
+    color: #A80000;
+
+    font-size: 25px;
+  
+}
+.nodeitemleft{
+    width: 99px;
+    flex:0 0 auto;
+    text-align: center;
+    
+}
+.nodeitemright{
+    flex:1;
+    width:1220px;
+   
+}
+.nodeitemrighttop{
+    width:1101px;
+    height: 40px;
+    line-height: 40px;
+   background:#409EFF;
+   COLOR:#FFF;
+   text-align: center;
+   border-bottom: 1px solid #C8C8C8;
+   font-size: 13px;
+   position: relative;
+}
+.rightboxitemlist{
+    display:flex;
+    align-items: center;
+}
+/* .nodeitemnode .el-table__row td:last-child{
+    border:none
+} */
+.nodeitemnode tbody{
+    border-right:none
+}
+.actfooter{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.upbmp{
+    display:flex;
+    /* align-items: center; */
+}
+.upbmpnmae{
+    width:60px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 3px;
+    text-align: center;
+    background: #409EFF;
+    color:#fff;
+    /* margin-left:50px; */
+    cursor: pointer;
+    position: relative;
+    margin-top:6px
+}
+.upfilebmpn{
+    width:60px;
+    height: 30px;
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 0;
+    cursor: pointer;
+    border:none;
+    outline: none;
+}
+.upbmpleft{
+    display:flex;
+    align-items: flex-start;
+    /* align-items: center; */
+}
+.upbmpleft .closeimgbtn{
+    font-size: 22px!important;
+    color:#409EFF!important;
+    cursor: pointer;
+    margin: 0 20px 0 10px;
+    margin-top:10px
+    
+}
+.planinput{
+    width:88%
+}
+.planhour{
+    display:flex;
+    align-items: center;
+}
+.operateselect .el-select{
+    width:100%;
+}
+.planname{
+    margin-left:20px
+}
+.relateform{
+    width:100%
+}
+.switchbtn{
+    display:flex;
+    justify-content: center;
+}
+.nodata{
+    color:#909399;
+    font-size: 14px;
+    text-align: center;
+    margin-top:50px;
+    padding-right: 260px;
+}
+.nodeitemnode .cell{
+    text-align: center;
+}

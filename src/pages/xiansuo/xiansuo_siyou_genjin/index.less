@@ -1,0 +1,858 @@
+/*线索详情*/
+.siyou_genjin {
+  height: 100%;
+  //min-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  /*地图*/
+
+  /deep/ .el-table td {
+    padding: 4px !important;
+    font-size: 12px;
+  }
+
+  /deep/ .el-table .cell {
+    line-height: 15px !important;
+    padding: 0 5px !important;
+  }
+
+  .cursorLink {
+    cursor: default;
+    font-size: 12px;
+  }
+
+  /deep/ .el-dialog__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .el-dialog__header {
+      padding: 5px 20px 5px;
+
+      .el-dialog__headerbtn {
+        top: 10px;
+      }
+    }
+
+    .el-dialog {
+      margin-top: 0 !important;
+
+      .el-dialog__footer {
+        padding: 5px 20px 5px !important;
+      }
+    }
+
+    .el-dialog__title {
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    /deep/ .el-dialog__body {
+      padding: 1px 20px !important;
+    }
+
+  }
+
+  /*分割线*/
+
+  .top_line {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 1px;
+    background: #ccc;
+  }
+
+  /*内容*/
+
+  .genjin_box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    //content-visibility:auto;
+    .tag_lists {
+      display: inline-block;
+      padding: 2px;
+      margin: 2px;
+      font-size: 12px;
+    }
+
+    .genjin_header {
+      width: 100%;
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 10px;
+      border-bottom: solid 1px #f2f2f2;
+
+      .genjin_header_left {
+        display: flex;
+        border-right: 1px solid #f2f2f2;
+        padding: 0 15px 0 0;
+        width: 50%;
+
+        .img {
+          width: 70px;
+          height: 70px;
+          cursor: pointer;
+
+          img {
+            width: 100%;
+          }
+        }
+
+        .img_right {
+          flex: 1;
+          margin: 0 10px 10px 30px;
+
+          .top {
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 15px;
+          }
+
+          .img_right_s {
+            font-weight: 600;
+            line-height: 28px;
+            font-size: 15px;
+          }
+
+          .bottom {
+            display: inline-block;
+            font-size: 13px;
+            color: #303133;
+            margin-top: 7px;
+
+            span {
+              display: inline-block;
+              margin-right: 20px;
+            }
+          }
+        }
+      }
+
+      .genjin_header_right {
+        display: flex;
+        flex-direction: column;
+        padding: 0 15px 10px 15px;
+        width: 50%;
+
+        .right_top {
+          display: flex;
+          margin-bottom: 10px;
+
+          p {
+            font-size: 16px;
+
+            span {
+              font-size: 12px;
+              color: #303133;
+            }
+          }
+        }
+
+        .right_content {
+          flex: 1;
+          max-height: 110px;
+
+          .el-tag--small {
+            margin-bottom: 10px;
+          }
+
+          .el-tag {
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+
+    /deep/ .el-tabs__header {
+      margin: 0;
+    }
+
+    .genjin_content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      margin-top: 10px;
+
+      .el-tabs {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+
+        /deep/ .el-tabs__content {
+          flex: 1 !important;
+          display: flex;
+          flex-direction: column;
+
+          .el-tab-pane {
+            height: 100%;
+          }
+
+          .czrzBox {
+            flex: 1 !important;
+          }
+        }
+      }
+
+      /deep/ .el-tabs__nav-wrap.is-top::after {
+        background: #f2f2f2 !important;
+      }
+
+      .lingquDetails {
+        position: absolute;
+        right: 110px;
+        top: 0;
+        z-index: 2000;
+      }
+
+      .genjin_button {
+        position: absolute;
+        top: 0;
+        right: 20px;
+        z-index: 2000;
+      }
+
+      .table_el {
+        margin-top: 10px;
+        width: 100%;
+      }
+    }
+
+    .box-card {
+      /*min-height: 95%;*/
+      /*padding-top: 10px;*/
+      height: 100%;
+
+      /deep/ .el-card__body {
+        height: 100%;
+      }
+
+      /deep/ .el-card__header {
+        padding: 0 20px;
+        height: 37px;
+        display: flex;
+        align-items: center;
+
+        // .el-button {
+        //    height: 24px;
+        //    font-size: 12px;
+        // }
+
+        .clearfix {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          span {
+            // font-size: 13px;
+          }
+
+          .title_right {
+            font-size: 12px;
+            color: #5a5723;
+            margin-left: 13px;
+
+            .title_vio {
+              color: red;
+              font-size: 15px;
+            }
+          }
+        }
+      }
+
+      .card_time {
+        position: relative;
+        content-visibility: auto;
+        contain-intrinsic-size: 312px; // 添加此行
+        .genjinJl {
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 5;
+          overflow: hidden;
+        }
+
+        .spanWav {
+          .el-button {
+            margin-left: 10px;
+          }
+        }
+
+        .time_lineBianji {
+          position: absolute;
+          top: 3px;
+          right: 10px;
+        }
+
+        .time_lineBbianji {
+          position: absolute;
+          top: 3px;
+          right: 10px;
+          cursor: Default;
+        }
+
+        .time_linekangengduo {
+          position: absolute;
+          right: 10px;
+          bottom: 3px;
+        }
+
+        span {
+          color: #08b400;
+          font-weight: 600;
+        }
+
+        .title {
+          margin-bottom: 10px;
+        }
+
+        p {
+          margin: 10px 0;
+        }
+      }
+
+      .card_content {
+        height: 100%;
+
+        /deep/ .el-timeline {
+          height: 100%;
+
+          .infinite-list-wrapper {
+            height: 100%;
+          }
+        }
+
+        .add_dialog {
+          display: flex;
+          flex-direction: column;
+          /*css表单公共样式*/
+
+          .el-form-item {
+            margin-bottom: 6px;
+          }
+
+          /deep/ .el-input__inner {
+            height: 27px;
+            line-height: 27px;
+          }
+
+          /deep/ .el-form-item__label {
+            font-size: 13px !important;
+            padding: 0 6px 0 0;
+          }
+
+          /deep/ .el-dialog__footer {
+            .title_right {
+              font-size: 12px;
+              color: #5a5723;
+              margin-right: 10px;
+
+              .title_vio {
+                color: red;
+                font-size: 15px;
+              }
+            }
+          }
+
+          .el-checkbox {
+            margin-right: 16px;
+          }
+
+          .header_add {
+            display: flex;
+            justify-content: flex-start;
+            border-bottom: 1px solid #f2f2f2;
+            padding: 5px 0;
+          }
+
+          .content_add::-webkit-scrollbar {
+            width: 0;
+          }
+
+          .content_add {
+            flex: 1;
+            padding: 5px 0;
+            font-size: 12px;
+            max-height: 620px;
+            overflow-y: scroll;
+            overflow-x: hidden;
+
+            .el-textarea {
+              /deep/ .el-input__count {
+                line-height: 13px;
+                bottom: 8px;
+                right: 5px;
+              }
+            }
+
+            p {
+              margin: 0 0 6px 0;
+              display: flex;
+              align-items: center;
+
+              span {
+                display: inline-block;
+                height: 12px;
+                background-color: #35a6ff;
+                border: 2px solid #35a6ff;
+                border-radius: 2px;
+                margin-right: 3px;
+              }
+            }
+
+            .form_label_g {
+              margin-left: 23px;
+
+              .lianXiRenClass {
+                margin-left: 6px;
+                width: 24.3%;
+
+                /deep/ .el-form-item__content {
+                  width: calc(100% - 46px) !important;
+                }
+              }
+            }
+
+            .form_label_s {
+              width: 50%;
+              display: flex;
+              justify-content: space-between;
+              position: relative;
+              margin-bottom: 8px;
+
+              .zhankai_shouqi {
+                position: absolute;
+                top: -9%;
+                right: -100%;
+              }
+
+              .el-date-editor,
+              .el-cascader,
+              .el-select {
+                width: 200px;
+              }
+
+              .qiyexinxi_from {
+                width: 50%;
+                display: flex;
+
+                .el-autocomplete {
+                  width: 100%;
+                }
+
+                /deep/ .el-form-item__content {
+                  flex: 1;
+                }
+              }
+
+              .faren_from {
+                width: 50%;
+
+                /deep/ .el-form-item__content {
+                  width: calc(100% - 39px) !important;
+                }
+              }
+
+              .suoshudiqu_form {
+                display: flex;
+
+                /deep/ .el-form-item__content {
+                  width: 200px;
+                  // margin-right: 10px;
+                }
+              }
+
+              .zczbClass {
+                width: 165px;
+              }
+
+              .zczbClassItem {
+                margin-left: -6px;
+                margin-right: 5px;
+              }
+            }
+
+            .form_label_h {
+              /deep/ .el-form-item__content {
+                width: 148px !important;
+              }
+            }
+
+            .zhankai_shouqi_hid {
+              /deep/ .el-form-item {
+                width: 100%;
+
+                /deep/ .el-form-item__content {
+                  width: 90%;
+                }
+              }
+
+              .texareaNone {
+                /deep/ .el-form-item__content {
+                  width: calc(100% - 59px);
+                }
+              }
+
+              .foem_table_button {
+                position: relative;
+
+                /deep/ .el-form-item__content {
+                  width: calc(100% - 59px);
+                }
+
+                .button_s {
+                  position: absolute;
+                  left: -50px;
+                  bottom: 7px;
+                }
+              }
+
+              .form_forms_item {
+                /deep/ .el-form-item__content {
+                  /*width: 100%;*/
+
+                  .form_items_display {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: nowrap;
+
+                    .item_form {
+                      display: flex;
+                      align-items: center;
+
+                      /deep/ .el-form-item__content {
+                        width: 54%;
+                      }
+
+                      .el-form-item__label,
+                      .el-form-item__content {
+                        font-size: 12px !important;
+                      }
+                    }
+                  }
+
+                  .form_items_display:nth-child(5) {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .table_span {
+      display: inline-block;
+      width: 29px;
+      height: 29px;
+      margin-right: 5px;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .dalig_gengduoshaixuan {
+    .el-form-item {
+      display: flex;
+      flex-direction: column;
+    }
+
+    /deep/ .el-form-item__content {
+      margin-left: 0 !important;
+    }
+
+    .info_button {
+      /deep/ .el-form-item__content {
+        display: flex;
+        flex-direction: row !important;
+      }
+
+      .info {
+        display: inline-block;
+        font-size: 13px;
+        color: darkred;
+        width: 42%;
+        margin-right: 34%;
+      }
+
+      .buttons {
+        width: 23%;
+      }
+    }
+  }
+
+  .baifang_dialog {
+    display: flex;
+    flex-direction: column;
+
+    /deep/ .el-form-item__label {
+      width: 78px !important;
+    }
+
+    /deep/ .el-form-item__content {
+      margin-left: 78px !important;
+    }
+
+    /deep/ textarea {
+      min-height: 174px !important;
+    }
+
+    .baifang_dialog_header {
+      display: flex;
+
+      .baifang_header_left,
+      .baifang_header_right {
+        width: 50%;
+        padding-right: 10px;
+      }
+
+      .baifang_header_right {
+        padding: 0 0 0 10px;
+      }
+    }
+
+    .baifang_dialog_content {
+      flex: 1;
+
+      .baifang_content_ {
+        display: flex;
+
+        .baifang_content_left,
+        .baifang_content_right {
+          width: 50%;
+          padding-right: 10px;
+
+          .avatar-uploader .el-upload {
+            border: 1px dashed #d9d9d9;
+            border-radius: 6px;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+          }
+
+          .avatar-uploader .el-upload:hover {
+            border-color: #409eff;
+          }
+
+          .avatar-uploader-icon {
+            font-size: 28px;
+            color: #8c939d;
+            width: 178px;
+            height: 178px;
+            line-height: 178px;
+            text-align: center;
+          }
+
+          .avatar {
+            width: 178px;
+            height: 178px;
+            display: block;
+          }
+
+          .img_baifang {
+            width: 200px;
+            height: 200px;
+            border: 1px solid #f2f2f2;
+            border-radius: 5px;
+          }
+        }
+
+        .baifang_content_right {
+          padding: 0 0 0 10px;
+        }
+      }
+    }
+  }
+
+  .dialogBoHaoClass {
+    /deep/ .el-dialog__header {
+      border-bottom: #f2f2f2 1px solid;
+      height: 38px;
+      display: flex;
+      align-items: center;
+    }
+
+    // position: relative;
+    .dalig_bohao {
+
+      img {
+        width: 30px;
+        position: absolute;
+        right: 10px;
+        top: 3px;
+      }
+    }
+  }
+
+  .dalig_bohao {
+    .el-textarea {
+      /deep/ .el-input__count {
+        line-height: 13px;
+        bottom: -15px;
+        right: 0;
+      }
+    }
+
+    .dalig_bohao_header {
+      display: flex;
+      padding: 10px 20px;
+      width: 100%;
+      border: 1px solid #f2f2f2;
+      border-radius: 3px;
+      height: 137px;
+
+      .bohao_header_left {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .left_in {
+          margin: 10px 0;
+          font-weight: 600;
+          font-size: 20px;
+        }
+      }
+
+      .bohao-header_right {
+        width: 50%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        div {
+          width: 122px;
+          height: 122px;
+          margin-bottom: 10px;
+
+          img {
+            width: 100%;
+          }
+        }
+
+        p {
+          color: darkred;
+        }
+      }
+    }
+
+    /*.el-form-item {*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*}*/
+
+    .infos_buttons {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 5px;
+    }
+
+    .info_button {
+      /deep/ .el-form-item__content {
+        display: flex;
+        flex-direction: row !important;
+      }
+
+      /deep/ .el-form-item__content {
+        margin-left: 0 !important;
+      }
+
+      .info {
+        display: inline-block;
+        font-size: 12px;
+        color: darkred;
+        /*width: 42%;*/
+        /*margin-right: 34%;*/
+      }
+
+      .buttons {
+        width: 23%;
+      }
+    }
+  }
+
+  .table_domo {
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+    .tree_demo {
+      width: 40%;
+    }
+
+    .el-tree {
+      min-height: 400px;
+      border-right: 1px solid #f2f2f2;
+    }
+
+    .table_list {
+      flex: 1;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 0 10px 0 10px;
+      max-height: 400px;
+
+      /deep/ .el-form-item__content {
+        margin-left: 0 !important;
+      }
+
+      .el-checkbox {
+        width: 35%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+
+        /deep/ .el-checkbox__label {
+          font-size: 15px !important;
+        }
+      }
+
+      .name_check_box {
+        flex: 1;
+
+        .check_box_ {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+        }
+      }
+    }
+  }
+
+  .form_xiadan {
+    /deep/ .el-form-item__content {
+      width: 171px;
+    }
+
+    .description {
+      color: darkred;
+      margin-top: 14px;
+    }
+  }
+
+  .zidingyi_dialog {
+    width: 100%;
+  }
+
+  /deep/ .el-dialog__body {
+    padding: 1px 20px !important;
+  }
+
+  .baidumapBox {
+    /deep/ .el-dialog__body {
+      padding: 0 !important;
+    }
+  }
+}
